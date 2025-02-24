@@ -13,7 +13,6 @@ This repository showcases a diverse set of machine learning and statistical mode
   - **File** - random_forest_purchases.py
   - **Aim** - ## This model predicts revenue conversion in e-commerce using synthetic data. It leverages features such as impressions, clicks, and past conversions with a logistic regression framework. 
   - **Objectives** - Develop and evaluate a predictive model that accurately forecasts revenue conversion, 
-## addressing class imbalance and fine-tuning decision thresholds to improve prediction for both conversion and non-conversion outcomes.
   - **Hypothesis** - H₀: Impressions, clicks, and past conversion history do not significantly influence revenue conversion.; H₁: Higher impressions, increased clicks, and positive past conversion history significantly boost the likelihood of revenue conversion
 
 
