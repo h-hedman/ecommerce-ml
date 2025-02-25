@@ -5,10 +5,6 @@
 # DESCRIPTION:
 ## This model performs a Bayesian statistical analysis using Markov Chain Monte Carlo (MCMC) 
 ## to estimate how customer engagement (e.g., website visits, ad clicks) influences daily e-commerce revenue.
-##
-## The Bayesian approach allows us to estimate **posterior distributions of key parameters while 
-## accounting for uncertainty, instead of relying solely on point estimates.
-##
 ## The model is built using rstan, which provides efficient sampling using Hamiltonian Monte Carlo (HMC).
 ##
 ## Techniques applied:
