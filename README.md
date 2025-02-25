@@ -5,7 +5,7 @@ This repository showcases a diverse set of machine learning and statistical mode
   - To highlight a diverse set of machine learning and statistical modeling techniques for e-commerce.
  
 * **Random Forrests Customer Purhcases**
-  - **File** - logistic_regression_prediction_model_ecommerce.py
+  - **File:** [`logistic_regression_prediction_model_ecommerce.py`](https://github.com/h-hedman/ecommerce-ml/blob/main/logistic_regression_prediction_model_ecommerce.py)
   - ### Predicting Customer Purchases Using Random Forests  
   - **Aim** - The aim of this project is to develop and evaluate a Random Forest Classifier to predict whether a customer makes a purchase on an e-commerce platform based on demographic and behavioral factors. Model outcomes are compared with LightGMB and XGBoost.
   - **Objectives** - (1) Identify key predictors of customer purchases, (2) assess the accuracy and performance of the model , and (3) Understand the impact of customer age, session duration, and promotion engagement on purchase decisions
