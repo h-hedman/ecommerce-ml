@@ -13,9 +13,14 @@ This repository showcases a diverse set of machine learning and statistical mode
   - **Aim** - This model predicts revenue conversion in e-commerce using synthetic data. It leverages features such as impressions, clicks, and past conversions with a logistic regression framework. 
   - **Objectives** - Develop and evaluate a predictive model that accurately forecasts revenue conversion, 
   - **Hypothesis** - H₀: Impressions, clicks, and past conversion history do not significantly influence revenue conversion.; H₁: Higher impressions, increased clicks, and positive past conversion history significantly boost the likelihood of revenue conversion
-  - **File:** [`logistic_regression_prediction_model_ecommerce.py`](https://raw.githubusercontent.com/h-hedman/ecommerce-ml/refs/heads/main/logistic_regression_prediction_model_ecommerce.py)  
+  - **File:** [`logistic_regression_prediction_model_ecommerce.py`](https://raw.githubusercontent.com/h-hedman/ecommerce-ml/refs/heads/main/logistic_regression_prediction_model_ecommerce.py)
+* **LSTM-Based E-Commerce Revenue Forecasting**
+  - **Aim** - This model predicts future e-commerce revenue based on historical sales data using a Long Short-Term Memory (LSTM) network. 
+  - **Objectives** - (1) Develop and evaluate a predictive model that accurately forecasts e-commerce revenue based on past revenue patterns, (2) Identify key trends in sales behavior and capture seasonality effects in the data, (3) Utilize deep learning techniques (LSTM) to enhance forecasting accuracy over traditional statistical models 
+  - **Hypothesis** - H₀: Past revenue patterns do not significantly influence future revenue; H₁: Historical revenue data, including trend and seasonality, significantly influences future revenue predictions
+  - **File:** [`ecommerce_revenue_forecasting_lstm.py`](https://raw.githubusercontent.com/h-hedman/ecommerce-ml/refs/heads/main/ecommerce_revenue_forecasting_lstm.py)  
 * **Profit Optimization Using Golden Ratio in E-Commerce Pricing**
-  - **Aim** - This model predicts revenue conversion in e-commerce using synthetic data. It leverages features such as impressions, clicks, and past conversions with a logistic regression framework. 
+  - **Aim** - This model applies the Golden Search alogirthm for optimal price selection. 
   - **Objectives** - (1) Identify the optimal price that maximizes profit in an e-commerce setting, (2) Understand how price sensitivity affects demand and revenue, and (3) Utilize the Golden Section Search algorithm to efficiently search for the best price  
   - **Hypothesis** - H₀: Price does not significantly impact demand and profit; H₁: There exists an optimal price that maximizes profit by balancing price sensitivity and unit costs
   - **File:** [`main.cpp`](https://raw.githubusercontent.com/h-hedman/ecommerce-ml/refs/heads/main/main.cpp)  
