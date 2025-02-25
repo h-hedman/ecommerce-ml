@@ -23,11 +23,16 @@ This repository showcases a diverse set of machine learning and statistical mode
   - **Aim** - This model applies the Golden Search alogirthm for optimal price selection. 
   - **Objectives** - (1) Identify the optimal price that maximizes profit in an e-commerce setting, (2) Understand how price sensitivity affects demand and revenue, and (3) Utilize the Golden Section Search algorithm to efficiently search for the best price  
   - **Hypothesis** - H₀: Price does not significantly impact demand and profit; H₁: There exists an optimal price that maximizes profit by balancing price sensitivity and unit costs
-  - **File:** [`main.cpp`](https://raw.githubusercontent.com/h-hedman/ecommerce-ml/refs/heads/main/main.cpp)  
-* **Compartmental Revenue Modeling (Visitors → Engaged → Purchasers)**
+  - **File:** [`main.cpp`](https://raw.githubusercontent.com/h-hedman/ecommerce-ml/refs/heads/main/main.cpp)
+* **Bayesian Statistical Analysis of Revenue**
   - **Aim** - This model simulates the flow of users in an e-commerce setting using a compartmental system. 
   - **Objectives** - (1) Simulate and evaluate the transition of users from (Visitors → Engaged → Purchasers), (2) Quantify the effectiveness of engagement and purchase rates (`beta`, `gamma`), (3) Generate **actionable insights** into customer retention and revenue conversion dynamics.
   - **Hypothesis** - H₀: The engagement rate (V → E) and purchase rate (E → P) do not significantly affect the number of purchasers over time; H₁: Higher engagement and purchase rates significantly increase the number of users who convert to purchases
+  - **File:** [`baysian_revenue_modelling.R`](https://raw.githubusercontent.com/h-hedman/ecommerce-ml/refs/heads/main/baysian_revenue_modelling.R)  
+* **Compartmental Revenue Modeling (Visitors → Engaged → Purchasers)**
+  - **Aim** - This model performs a Bayesian statistical analysis using Markov Chain Monte Carlo (MCMC).
+  - **Objectives** - Estimates the impact of customer engagement on e-commerce revenue through quantifying uncertainty around model parameters using credible intervals.
+  - **Hypothesis** - H₀: Customer engagement (website visits, ad clicks) has no significant impact on daily revenue; H₁: Higher customer engagement significantly increases e-commerce revenue
   - **File:** [`compartmental_model_consumer_trends.R`](https://raw.githubusercontent.com/h-hedman/ecommerce-ml/refs/heads/main/compartmental_model_consumer_trends.R)  
 
 
