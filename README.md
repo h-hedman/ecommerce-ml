@@ -53,7 +53,7 @@ This repository showcases a diverse set of machine learning and statistical mode
 
 - Raschka, S., Liu, Y. H., & Mirjalili, V. (2022). *Machine Learning with PyTorch and Scikit-Learn: Develop machine learning and deep learning models with Python.* Packt Publishing Ltd.  
 
-- Hyatt, S. (n.d.). *Machine Learning Fundamentals: Use Python and scikit-learn to get up and running with the hottest developments in machine learning.* Packt Publishing Ltd.  
+- Hyatt, S. (2018). *Machine Learning Fundamentals: Use Python and scikit-learn to get up and running with the hottest developments in machine learning.* Packt Publishing Ltd.  
 
 
 
