@@ -18,7 +18,17 @@ This repository showcases a diverse set of machine learning and statistical mode
   - **Aim** - This model predicts future e-commerce revenue based on historical sales data using a Long Short-Term Memory (LSTM) network. 
   - **Objectives** - (1) Develop and evaluate a predictive model that accurately forecasts e-commerce revenue based on past revenue patterns, (2) Identify key trends in sales behavior and capture seasonality effects in the data, (3) Utilize deep learning techniques (LSTM) to enhance forecasting accuracy over traditional statistical models 
   - **Hypothesis** - H₀: Past revenue patterns do not significantly influence future revenue; H₁: Historical revenue data, including trend and seasonality, significantly influences future revenue predictions
-  - **File:** [`ecommerce_revenue_forecasting_lstm.py`](https://raw.githubusercontent.com/h-hedman/ecommerce-ml/refs/heads/main/ecommerce_revenue_forecasting_lstm.py)  
+  - **File:** [`ecommerce_revenue_forecasting_lstm.py`](https://raw.githubusercontent.com/h-hedman/ecommerce-ml/refs/heads/main/ecommerce_revenue_forecasting_lstm.py)
+* **Time series analysis of synthetic e-commerce data**
+  - **Aim** - The model applies both ARIMA and SARIMA techniques to forecast future sales and evaluates performance using multiple metrics.
+  - **Objectives** - Develop and evaluate a time series forecasting model that accurately predicts sales trends, incorporating seasonality and trend effects to improve forecasting accuracy.
+  - **Hypothesis** - H₀: Time-based trends, seasonality, and noise do not significantly influence sales forecasting accuracy; H₁: Incorporating time trends, seasonality, and noise improves sales prediction accuracy
+  - **File:** [`time_series_arima_revenue.py`](https://raw.githubusercontent.com/h-hedman/ecommerce-ml/refs/heads/main/time_series_arima_revenue.py)
+* **Summarizing Customer Review Comments Using NLP**
+  - **Aim** - This script processes customer reviews using Natural Language Processing (NLP) techniques
+  - **Objectives** - ((1) Identify frequently mentioned words and important keywords in customer reviews, (2) Classify reviews by sentiment to track customer satisfaction, (3) Provide a visual representation of insights
+  - **Hypothesis** - H₀: Customer review text does not contain meaningful patterns in word importance or sentiment; H₁: Reviews contain structured sentiment patterns and important words that provide insights into customer experience
+  - **File:** [`nlp_customer_review.py`](https://raw.githubusercontent.com/h-hedman/ecommerce-ml/refs/heads/main/nlp_customer_review.py)
 * **Profit Optimization Using Golden Ratio in E-Commerce Pricing**
   - **Aim** - This model applies the Golden Search alogirthm for optimal price selection. 
   - **Objectives** - (1) Identify the optimal price that maximizes profit in an e-commerce setting, (2) Understand how price sensitivity affects demand and revenue, and (3) Utilize the Golden Section Search algorithm to efficiently search for the best price  
