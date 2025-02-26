@@ -45,5 +45,15 @@ This repository showcases a diverse set of machine learning and statistical mode
   - **Hypothesis** - H₀: Customer engagement (website visits, ad clicks) has no significant impact on daily revenue; H₁: Higher customer engagement significantly increases e-commerce revenue
   - **File:** [`compartmental_model_consumer_trends.R`](https://raw.githubusercontent.com/h-hedman/ecommerce-ml/refs/heads/main/compartmental_model_consumer_trends.R)  
 
+## References  
+
+- Auffarth, B. (2021). *Machine Learning for Time-Series with Python: Forecast, predict, and detect anomalies with state-of-the-art machine learning methods.* Packt Publishing Ltd.  
+
+- Huyen, C. (2022). *Designing Machine Learning Systems.* O'Reilly Media, Inc.  
+
+- Raschka, S., Liu, Y. H., & Mirjalili, V. (2022). *Machine Learning with PyTorch and Scikit-Learn: Develop machine learning and deep learning models with Python.* Packt Publishing Ltd.  
+
+- Hyatt, S. (n.d.). *Machine Learning Fundamentals: Use Python and scikit-learn to get up and running with the hottest developments in machine learning.* Packt Publishing Ltd.  
+
 
 
